@@ -35,7 +35,7 @@ const Hero = () => {
         className="overflow-x-hidden text-[1.3rem] sm:text-[1.75rem] 
       md:text-[2.2rem] lg:text-[2.8rem] tracking-[2px] mb-4"
       >
-        Hey, I'm Zeeshan
+        Hey, I'm Wasi Shaikh
       </h1>
       <h1
         className="text-tubeLight-effect overflow-x-hidden text-[1.3rem] 
@@ -66,27 +66,27 @@ const Hero = () => {
         {/* <Link to={user.Li} target="_blank">
           <Linkedin className="text-sky-500 w-7 h-7" />
         </Link> */}
-        <Link to={user.twitterURL} target="_blank">
+        {/* <Link to={user.twitterURL} target="_blank">
           <Twitter className="text-blue-800 w-7 h-7" />
-        </Link>
+        </Link> */}
       </div>
       <div className="mt-4 md:mt-8 lg:mt-10  flex gap-3">
-        <Link to={user.githubURL} target="_blank">
+        {/* <Link to={user.githubURL} target="_blank">
           <Button className="rounded-[30px] flex items-center gap-2 flex-row">
             <span>
               <Github />
             </span>
             <span>Github</span>
           </Button>
-        </Link>
-        <Link to={user.resume && user.resume.url} target="_blank">
+        </Link> */}
+        {/* <Link to={user.resume && user.resume.url} target="_blank">
           <Button className="rounded-[30px] flex items-center gap-2 flex-row">
             <span>
               <ExternalLink />
             </span>
             <span>Resume </span>
           </Button>
-        </Link>
+        </Link> */}
       </div>
       <p className="mt-8 text-xl tracking-[2px]">{user.aboutMe}</p>
       <hr className="my-8 md::my-10 " />
